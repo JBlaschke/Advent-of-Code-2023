@@ -113,4 +113,11 @@ mod tests {
             142
         );
     }
+    #[test]
+    fn problem_2() {
+        assert_eq!(
+            crate::solution_1(Path::new("data").join("test_2_input.txt")),
+            281
+        );
+    }
 }
